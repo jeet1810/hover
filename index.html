@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            /* background-color: yellow; */
+            gap: 20px;
+       }
+
+       
+       .flex-container>div{
+        /* background-color: aqua; */
+        align-items: center;
+       }
+
+       .menu-container{
+        display: flex;
+        gap: 50px;
+       }
+
+       #Join{
+        /* background-color: lightgreen; */
+        border-color: lightgreen;
+        color: rgb(76, 219, 76);
+        font-weight: 900;
+        height: 40px;
+        width: 70px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgb(5, 148, 5);
+        border: 1px solid lightgreen;
+       }
+       #Join:hover{
+        background-color: rgb(45, 175, 45);
+        color: white;
+       }
+    </style>
+</head>
+<body>
+
+    <h1>Laptop</h1>
+    <div class="flex-container">
+        <div class="logo">
+            Fiverr <i class="fa-solid fa-o" style="font-size: xx-small; color: green; border: green;" ></i>
+        </div>
+        <div class="menu-container">
+            <div>Fiverr Pro <i class="fa-solid fa-chevron-down"></i></div>
+            <div>Explore <i class="fa-solid fa-chevron-down"></i></div>
+            <div><i class="fa-solid fa-globe"></i>English</div>
+            <div>Become a seller</div>
+            <div>Sign In</div>
+            <div><button id="Join">Join</button></div>
+        </div>
+    </div>
+
+    <h1>Tablet</h1>
+    <div class="flex-container">
+        <div class="logo" style="display: flex; gap: 20px;">
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div>Fiverr <i class="fa-solid fa-o" style="font-size: xx-small; color: green; border: green;" ></i></div>
+    </div>
+        <div class="menu-container">
+            <div>Fiverr Pro <i class="fa-solid fa-chevron-down"></i></div>
+            <div>Explore <i class="fa-solid fa-chevron-down"></i></div>
+            <div>Become a seller</div>
+            <div>Sign In</div>
+            <div><button id="Join">Join</button></div>
+        </div>
+    </div>
+
+    <h1>Phone</h1>
+    <div class="flex-container">
+            <div><i class="fa-solid fa-bars"></i></div>
+            <div>Fiverr <i class="fa-solid fa-o" style="font-size: xx-small; color: green; border: green;" ></i></div>
+            <div><button id="Join">Join</button></div>
+        </div>
+    </div>
+</body>
+</html>
